@@ -2,13 +2,13 @@
 Julia version of Karpathy's Micrograd, with an additional Tensor class added.
 
 
-Hi, thanks for checking out **mikerograd**!
+Hi, thanks for checking out **mikerograd**! This is a Julia version of Andrej Karpathy's original [micrograd](https://github.com/karpathy/micrograd) Python library, with an additional Tensor object-type added.
 
 I started this project as a learning exercise for myself, since I'm a beginner at Julia and machine learning. Figured other people might find it useful too, so I'm putting it up on my Github. 
 
 Basically the goal here is to make some basic gradient-tracking objects, with code that's simple enough to read, understand, and edit.
 
-## The file **mikerograd.jl** contains 2 object-types (basically classes):
+The file **mikerograd.jl** contains 2 object-types (basically classes):
 
 **Value** 
 - basically a Julia version of the Value class in Andrej Karpathy's original Python Micrograd.
