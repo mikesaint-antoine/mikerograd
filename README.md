@@ -1,6 +1,4 @@
 # mikerograd
-Julia version of Karpathy's Micrograd, with an additional Tensor class added.
-
 
 Hi, thanks for checking out **mikerograd**! This is a Julia version of Andrej Karpathy's original [micrograd](https://github.com/karpathy/micrograd) Python library, with an additional Tensor object-type added.
 
