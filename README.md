@@ -9,9 +9,9 @@ Basically the goal here is to make some basic gradient-tracking objects, with co
 The file **mikerograd.jl** contains 2 object-types (basically classes):
 
 **Value** 
-- basically a Julia version of the Value class in Andrej Karpathy's original Python Micrograd.
-- scalar-valued gradient tracking
-- great tool for learning the basics of backpropogation
+- basically a Julia version of the Value class in Karpathy's original micrograd.
+- scalar-valued gradient tracking (meaning operations are done on single numbers, not arrays)
+- great tool for learning the basics of backpropagation
 - possibly useful for simple examples like fitting a line to data by gradient descent.
 
 **Tensor** 
